@@ -108,10 +108,18 @@ export const experience: Experience[] = [
   {
     role: "Data Science Intern",
     provider: "RVNS Solution (AICTE Approved)",
-    duration: "1 June 2026 – 16 July 2026",
+    duration: "01 June 2026 – 16 July 2026",
     description:
       "A Python full-stack internship focused on applying data science concepts to real-world, end-to-end application development.",
     image: "/certificates/rvns.jpeg",
+  },
+  {
+    role: "Bootcamp Learner",
+    provider: "1M1B (AICTE Approved)",
+    duration: "09 June 2026 – 14 July 2026",
+    description:
+      "The intensive AI-enabled Green Skills & Climate Action Bootcamp helped me in Gaining foundational insights into leveraging AI and Data Analytics to tackle modern sustainability and climate challenges equipped with future-ready skills focused on the intersection of technology, green innovation, and responsible AI application.",
+    image: "/certificates/1M1B.jpeg",
   },
 ];
 
