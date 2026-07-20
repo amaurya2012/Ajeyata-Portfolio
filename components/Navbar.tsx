@@ -53,7 +53,7 @@ export default function Navbar() {
           href="#contact"
           className="hidden rounded-full border border-line px-4 py-2 font-mono text-xs uppercase tracking-widest text-paper transition-colors hover:border-lime hover:text-lime md:block"
         >
-          Let&apos;s Talk
+          Hire Me
         </a>
 
         <button
