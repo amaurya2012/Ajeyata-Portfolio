@@ -94,16 +94,6 @@ export const projects: Project[] = [
     linkType: "code",
     featured: true,
   },
-  {
-    title: "E-Commerce Platform",
-    tag: "Full-Stack",
-    description:
-      "A full-stack e-commerce application built with Django, covering product listings, cart flow, and order handling end to end.",
-    stack: ["Django", "Python", "SQL"],
-    linkLabel: "View Code",
-    linkUrl: "https://github.com/amaurya2012/E-COMMERCE-DJANGO-",
-    linkType: "code",
-  },
 ];
 
 export type Experience = {
