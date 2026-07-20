@@ -54,7 +54,7 @@ export default function Projects() {
     <section id="work" className="relative px-6 py-28 md:px-10">
       <div className="mx-auto max-w-6xl">
           <p className="font-mono text-xs uppercase tracking-widest text-violet">
-            Manifested
+            MANIFESTED WORK
           </p>
           <h2 className="mt-3 font-display text-2xl font-medium text-paper">
             Crafted & Curated with Passion.

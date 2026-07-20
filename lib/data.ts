@@ -106,6 +106,25 @@ export const projects: Project[] = [
   },
 ];
 
+export type Experience = {
+  role: string;
+  provider: string;
+  duration: string;
+  description: string;
+  image: string | null;
+};
+
+export const experience: Experience[] = [
+  {
+    role: "Data Science Intern",
+    provider: "RVNS Solution (AICTE Approved)",
+    duration: "1 June 2026 – 16 July 2026",
+    description:
+      "A Python full-stack internship focused on applying data science concepts to real-world, end-to-end application development.",
+    image: "/certificates/rvns.jpeg",
+  },
+];
+
 export type Certification = {
   title: string;
   issuer: string;
