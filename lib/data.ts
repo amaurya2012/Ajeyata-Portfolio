@@ -73,7 +73,17 @@ export const projects: Project[] = [
     linkUrl: "https://inkhaven-orpin.vercel.app",
     linkType: "live",
   },
-    {
+  {
+  title: "CodeMaster",
+  tag: "Full-Stack",
+  description:
+    "A coding practice platform with difficulty-tiered problems, code submission, an admin panel for problem management, and a competitive leaderboard.",
+  stack: ["Flask", "Python", "MySQL"],
+  linkLabel: "View Code",
+  linkUrl: "https://github.com/amaurya2012/Codemaster",
+  linkType: "code",
+  },
+  {
     title: "Nutrition Chatbot",
     tag: "Chatbot",
     description:
