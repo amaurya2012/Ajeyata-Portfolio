@@ -84,6 +84,16 @@ export const projects: Project[] = [
   linkType: "code",
   },
   {
+  title: "EcoWatt",
+  tag: "AI for Sustainability",
+  description:
+    "An AI-powered household energy advisor that forecasts consumption, detects waste events in real time, and generates plain-language sustainability tips using Claude — built for the 1M1B x Microsoft.",
+  stack: ["Python", "Streamlit", "RandomForest", "Claude API"],
+  linkLabel: "View Code",
+  linkUrl: "https://github.com/amaurya2012/EcoWatt",
+  linkType: "code",
+  },
+  {
     title: "Nutrition Chatbot",
     tag: "Chatbot",
     description:
