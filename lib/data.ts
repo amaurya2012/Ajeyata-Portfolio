@@ -76,6 +76,17 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+  title: "Rental & Purchase E-Commerce",
+  tag: "Full-Stack",
+  description:
+    "A dual-model e-commerce platform supporting both product purchase and time-based rentals, with role-based dashboards for Admin, Seller, and Buyer, deposit handling, and AI-ready interaction logging for future recommendations.",
+  stack: ["Flask", "SQLAlchemy", "Bootstrap"],
+  linkLabel: "View Code",
+  linkUrl: "https://github.com/amaurya2012/Rental-Purchase-AI-Ecommerce",
+  linkType: "code",
+  featured: true,
+  },
+  {
   title: "CodeMaster",
   tag: "Full-Stack",
   description:
