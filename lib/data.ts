@@ -62,6 +62,7 @@ export const projects: Project[] = [
     linkLabel: "Live Preview",
     linkUrl: "https://a-s-library.vercel.app",
     linkType: "live",
+    featured: true,
   },
   {
     title: "Inkhaven",
@@ -72,6 +73,7 @@ export const projects: Project[] = [
     linkLabel: "Live Preview",
     linkUrl: "https://inkhaven-orpin.vercel.app",
     linkType: "live",
+    featured: true,
   },
   {
   title: "CodeMaster",
@@ -82,16 +84,18 @@ export const projects: Project[] = [
   linkLabel: "View Code",
   linkUrl: "https://github.com/amaurya2012/Codemaster",
   linkType: "code",
+  featured: true,
   },
   {
   title: "EcoWatt",
   tag: "AI for Sustainability",
   description:
-    "An AI-powered household energy advisor that forecasts consumption, detects waste events in real time, and generates plain-language sustainability tips using Claude — built for the 1M1B x Microsoft.",
+    "An AI-powered household energy advisor that forecasts consumption, detects waste events in real time, and generates plain-language sustainability tips — built for the 1M1B x Microsoft.",
   stack: ["Python", "Streamlit", "RandomForest", "Claude API"],
   linkLabel: "View Code",
   linkUrl: "https://github.com/amaurya2012/EcoWatt",
   linkType: "code",
+  featured: true,
   },
   {
     title: "Nutrition Chatbot",
@@ -102,6 +106,7 @@ export const projects: Project[] = [
     linkLabel: "View Code",
     linkUrl: "https://github.com/amaurya2012/Nutrition-Chatbot",
     linkType: "code",
+    featured: true,
   },
   {
     title: "NBA Accreditation AI Agent",
@@ -109,7 +114,7 @@ export const projects: Project[] = [
     description:
       "An AI-driven accreditation agent built on IBM watsonx Orchestrate, designed to automate and streamline evaluation workflows using orchestrated AI reasoning.",
     stack: ["IBM watsonx Orchestrate", "AI Agents", "Python"],
-    linkLabel: "View Code",
+    linkLabel: "null",
     linkUrl: "null",
     linkType: "code",
     featured: true,
