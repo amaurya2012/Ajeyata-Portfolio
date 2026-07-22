@@ -87,6 +87,17 @@ export const projects: Project[] = [
   featured: true,
   },
   {
+  title: "Job Portal",
+  tag: "Full-Stack",
+  description:
+    "A Flask-based job portal with resume uploads, application tracking, and automated email notifications for applicants and recruiters.",
+  stack: ["Flask", "Python", "SQLite"],
+  linkLabel: "View Code",
+  linkUrl: "https://github.com/amaurya2012/Job-Portal",
+  linkType: "code",
+  featured: true,
+  },
+  {
   title: "EcoWatt",
   tag: "AI for Sustainability",
   description:
