@@ -76,6 +76,16 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+  title: "AURELLE — E-Commerce Funnel Analysis",
+  tag: "Data Analytics",
+  description:
+    "An end-to-end telemetry pipeline for a simulated storefront: a React frontend logs every user action to a Node/Express backend, a traffic simulator generates thousands of sessions, and a Python analytics module produces funnel charts, device-level conversion rates, and a statistically validated A/B test report.",
+  stack: ["React", "Node/Express", "Python", "A/B Testing"],
+  linkLabel: "Live Preview",
+  linkUrl: "https://ecommerce-funnel-analysis-pi.vercel.app",
+  linkType: "live",
+  },
+  {
   title: "Rental & Purchase E-Commerce",
   tag: "Full-Stack",
   description:
