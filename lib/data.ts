@@ -29,11 +29,11 @@ export type SkillGroup = {
 export const skillGroups: SkillGroup[] = [
   {
     label: "Languages & Data",
-    items: ["Python", "SQL", "HTML/CSS/JS (learning)"],
+    items: ["Python", "SQL", "HTML/CSS/JS"],
   },
   {
     label: "Frameworks",
-    items: ["Django", "Streamlit"],
+    items: ["Django", "Flask"],
   },
   {
     label: "AI & Tools",
@@ -53,6 +53,17 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+    {
+    title: "Nutrition Chatbot",
+    tag: "Chatbot",
+    description:
+      "An intelligent chatbot that delivers personalized nutrition insights, built to make everyday dietary guidance more conversational and accessible.",
+    stack: ["Python", "IBM watsonx", "NLP"],
+    linkLabel: "View Code",
+    linkUrl: "https://github.com/amaurya2012/Nutrition-Chatbot",
+    linkType: "code",
+    featured: true,
+  },
   {
     title: "A's Library",
     tag: "Full-Stack Web App",
@@ -130,17 +141,6 @@ export const projects: Project[] = [
   featured: true,
   },
   {
-    title: "Nutrition Chatbot",
-    tag: "Chatbot",
-    description:
-      "An intelligent chatbot that delivers personalized nutrition insights, built to make everyday dietary guidance more conversational and accessible.",
-    stack: ["Python", "IBM watsonx", "NLP"],
-    linkLabel: "View Code",
-    linkUrl: "https://github.com/amaurya2012/Nutrition-Chatbot",
-    linkType: "code",
-    featured: true,
-  },
-  {
     title: "NBA Accreditation AI Agent",
     tag: "AI Agent",
     description:
@@ -164,11 +164,19 @@ export type Experience = {
 export const experience: Experience[] = [
   {
     role: "Data Science Intern",
-    provider: "RVNS Solution (AICTE Approved)",
+    provider: "RVNS Solution x AICTE",
     duration: "01 June 2026 – 16 July 2026",
     description:
       "A Python full-stack internship focused on applying data science concepts to real-world, end-to-end application development.",
     image: "/certificates/rvns.jpeg",
+  },
+  {
+    role: "Emerging Technologies Intern",
+    provider: "Edunet Foundation x AICTE x IBM SkillsBuild",
+    duration: "12 June 2026 – 10 July 2026",
+    description:
+      "A 4-week internship covering Agentic AI, Cyber Security, and Quantum Computing, culminating in an industry-relevant project built using IBM Cloud and IBM SkillsBuild.",
+    image: "/certificates/edunet-certificate.jpeg",
   },
   {
     role: "Bootcamp Learner",
