@@ -137,7 +137,7 @@ export default function Hero() {
               <div className="h-52 w-52 overflow-hidden rounded-full border border-line sm:h-64 sm:w-64">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/profile.jpeg"
+                  src="/certificates/profile.jpeg"
                   alt="Ajeyata Maurya"
                   className="h-full w-full object-cover"
                 />
