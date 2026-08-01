@@ -176,7 +176,7 @@ export const experience: Experience[] = [
     duration: "12 June 2026 – 10 July 2026",
     description:
       "A 4-week internship covering Agentic AI, Cyber Security, and Quantum Computing, culminating in an industry-relevant project built using IBM Cloud and IBM SkillsBuild.",
-    image: "/certificates/edunet-certificate.jpeg",
+    image: "/certificates/edunet_certificate.jpeg",
   },
   {
     role: "Bootcamp Learner",
