@@ -134,11 +134,14 @@ export default function Hero() {
         <div className="reveal flex justify-center md:justify-end" style={{ animationDelay: "0.15s" }}>
           <div className="relative">
             <div className="absolute inset-0 -z-10 scale-110 rounded-full bg-gradient-to-br from-lime/30 via-teal/20 to-violet/30 blur-2xl" />
-            <div className="flex h-52 w-52 items-center justify-center rounded-full border border-line bg-surface font-display text-5xl font-semibold text-paper sm:h-64 sm:w-64">
-              <span className="bg-gradient-to-br from-lime to-teal bg-clip-text text-transparent">
-                AM
-              </span>
-            </div>
+              <div className="h-52 w-52 overflow-hidden rounded-full border border-line sm:h-64 sm:w-64">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/profile.jpeg"
+                  alt="Ajeyata Maurya"
+                  className="h-full w-full object-cover"
+                />
+              </div>
             <div className="absolute -bottom-2 -right-2 rounded-full border border-line bg-surface px-4 py-2 font-mono text-[11px] uppercase tracking-widest text-teal shadow-lg shadow-black/40">
               DS &apos;28
             </div>
