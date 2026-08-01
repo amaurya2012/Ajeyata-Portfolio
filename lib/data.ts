@@ -53,7 +53,17 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-    {
+  {
+  title: "Calculator",
+  tag: "Web App",
+  description:
+    "A clean, responsive calculator built with vanilla HTML, CSS, and JavaScript, featuring full keyboard support and error handling for invalid expressions.",
+  stack: ["HTML5", "CSS3", "JavaScript"],
+  linkLabel: "Live Preview",
+  linkUrl: "https://calculator-one-flax-99.vercel.app",
+  linkType: "live",
+  },
+  {
     title: "Nutrition Chatbot",
     tag: "Chatbot",
     description:
