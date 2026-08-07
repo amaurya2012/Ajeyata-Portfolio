@@ -15,14 +15,11 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open (https://ajeyata-m-portfolio.vercel.app/)
 
 ## Editing Content
 
 All portfolio content (name, bio, skills, projects, certifications) lives in
 `lib/data.ts` — edit that one file to update anything on the site.
 
-## Deploy
 
-Push to GitHub, then import the repo on [Vercel](https://vercel.com/new).
-Vercel auto-detects Next.js — no config needed.
