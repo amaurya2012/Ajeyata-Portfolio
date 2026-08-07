@@ -207,6 +207,7 @@ export type Certification = {
 
 export const certifications: Certification[] = [
   { title: "Women Who Master Hackathon", issuer: "Logitech x Aspire For Her", image: "/certificates/Women%20Who%20Master%20Hackathon.jpeg", url: "/certificates/Women%20Who%20Master%20Hackathon.jpeg" },
+  { title: "AI Quiz", issuer: "Campus Crew", image: "/certificates/Campus_Crew_Certificate.jpeg", url: "/certificates/Campus_Crew_Certificate.jpeg" },
   { title: "GFG Hackfest", issuer: "Geeks for Geeks", image: "/certificates/gfg.png.jpeg", url: "/certificates/gfg.png.jpeg" },
   { title: "Getting Started with Artificial Intelligence", issuer: "IBM", image: "/certificates/AI.png.jpeg", url: "/certificates/AI.png.jpeg" },
   { title: "Getting Started with Cybersecurity", issuer: "IBM", image: "/certificates/cybersecurity.png.jpeg", url: "/certificates/cybersecurity.png.jpeg" },
