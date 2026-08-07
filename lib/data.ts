@@ -75,7 +75,7 @@ export const projects: Project[] = [
     linkType: "live",
   },
   {
-    title: "Finsight",
+    title: "FinSight",
     tag: "Fintech & Dashboard Analytics",
     description:
       "A sleek, receipt-aesthetic financial tracking and ledger dashboard system featuring real-time transaction management, persistent local storage, dynamic multi-category expense breakdowns, and dark/light theme switching.",
