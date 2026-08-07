@@ -54,16 +54,6 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-  title: "Calculator",
-  tag: "Web App",
-  description:
-    "A clean, responsive calculator built with vanilla HTML, CSS, and JavaScript, featuring full keyboard support and error handling for invalid expressions.",
-  stack: ["HTML5", "CSS3", "JavaScript"],
-  linkLabel: "Live Preview",
-  linkUrl: "https://calculator-one-flax-99.vercel.app",
-  linkType: "live",
-  },
-  {
     title: "Nutrition Chatbot",
     tag: "Chatbot",
     description:
@@ -73,6 +63,26 @@ export const projects: Project[] = [
     linkUrl: "https://github.com/amaurya2012/Nutrition-Chatbot",
     linkType: "code",
     featured: true,
+  },
+  {
+    title: "AURELLE — E-Commerce Funnel Analysis",
+    tag: "Data Analytics",
+    description:
+      "An end-to-end telemetry pipeline for a simulated storefront: a React frontend logs every user action to a Node/Express backend, a traffic simulator generates thousands of sessions, and a Python analytics module produces funnel charts, device-level conversion rates, and a statistically validated A/B test report.",
+    stack: ["React", "Node/Express", "Python", "A/B Testing"],
+    linkLabel: "Live Preview",
+    linkUrl: "https://ecommerce-funnel-analysis-pi.vercel.app",
+    linkType: "live",
+  },
+  {
+    title: "Finsight",
+    tag: "Fintech & Dashboard Analytics",
+    description:
+      "A sleek, receipt-aesthetic financial tracking and ledger dashboard system featuring real-time transaction management, persistent local storage, dynamic multi-category expense breakdowns, and dark/light theme switching.",
+    stack: ["React", "Vite", "Tailwind CSS", "JavaScript", "LocalStorage"],
+    linkLabel: "Live Preview",
+    linkUrl: "https://finsight-frontend-lac.vercel.app/",
+    linkType: "live",
   },
   {
     title: "A's Library",
@@ -97,58 +107,68 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-  title: "AURELLE — E-Commerce Funnel Analysis",
-  tag: "Data Analytics",
-  description:
-    "An end-to-end telemetry pipeline for a simulated storefront: a React frontend logs every user action to a Node/Express backend, a traffic simulator generates thousands of sessions, and a Python analytics module produces funnel charts, device-level conversion rates, and a statistically validated A/B test report.",
-  stack: ["React", "Node/Express", "Python", "A/B Testing"],
-  linkLabel: "Live Preview",
-  linkUrl: "https://ecommerce-funnel-analysis-pi.vercel.app",
-  linkType: "live",
+    title: "To Do List",
+    tag: "Web App",
+    description:
+      "A To-Do List web application built with HTML, CSS, and JavaScript. This project features a clean, centered interface with a peach-gradient background, dynamic task management (adding, deleting, and reordering via drag-and-drop), and an interactive 'Yes/No' dropdown selector that dynamically marks tasks as completed with a line-through style.",
+    stack: ["HTML5", "CSS3", "JavaScript"],
+    linkLabel: "Live Preview",
+    linkUrl: "https://to-do-list-two-taupe-78.vercel.app/",
+    linkType: "live",
   },
   {
-  title: "Rental & Purchase E-Commerce",
-  tag: "Full-Stack",
-  description:
-    "A dual-model e-commerce platform supporting both product purchase and time-based rentals, with role-based dashboards for Admin, Seller, and Buyer, deposit handling, and AI-ready interaction logging for future recommendations.",
-  stack: ["Flask", "SQLAlchemy", "Bootstrap"],
-  linkLabel: "View Code",
-  linkUrl: "https://github.com/amaurya2012/Rental-Purchase-AI-Ecommerce",
-  linkType: "code",
-  featured: true,
+    title: "Calculator",
+    tag: "Web App",
+    description:
+      "A clean, responsive calculator built with vanilla HTML, CSS, and JavaScript, featuring full keyboard support and error handling for invalid expressions.",
+    stack: ["HTML5", "CSS3", "JavaScript"],
+    linkLabel: "Live Preview",
+    linkUrl: "https://calculator-one-flax-99.vercel.app",
+    linkType: "live",
   },
   {
-  title: "CodeMaster",
-  tag: "Full-Stack",
-  description:
-    "A coding practice platform with difficulty-tiered problems, code submission, an admin panel for problem management, and a competitive leaderboard.",
-  stack: ["Flask", "Python", "MySQL"],
-  linkLabel: "View Code",
-  linkUrl: "https://github.com/amaurya2012/Codemaster",
-  linkType: "code",
-  featured: true,
+    title: "EcoWatt",
+    tag: "AI for Sustainability",
+    description:
+      "An AI-powered household energy advisor that forecasts consumption, detects waste events in real time, and generates plain-language sustainability tips — built for the 1M1B x Microsoft.",
+    stack: ["Python", "Streamlit", "RandomForest", "Claude API"],
+    linkLabel: "View Code",
+    linkUrl: "https://github.com/amaurya2012/EcoWatt",
+    linkType: "code",
+    featured: true,
   },
   {
-  title: "Job Portal",
-  tag: "Full-Stack",
-  description:
-    "A Flask-based job portal with resume uploads, application tracking, and automated email notifications for applicants and recruiters.",
-  stack: ["Flask", "Python", "SQLite"],
-  linkLabel: "View Code",
-  linkUrl: "https://github.com/amaurya2012/Job-Portal",
-  linkType: "code",
-  featured: true,
+    title: "Job Portal",
+    tag: "Full-Stack",
+    description:
+      "A Flask-based job portal with resume uploads, application tracking, and automated email notifications for applicants and recruiters.",
+    stack: ["Flask", "Python", "SQLite"],
+    linkLabel: "View Code",
+    linkUrl: "https://github.com/amaurya2012/Job-Portal",
+    linkType: "code",
+    featured: true,
   },
   {
-  title: "EcoWatt",
-  tag: "AI for Sustainability",
-  description:
-    "An AI-powered household energy advisor that forecasts consumption, detects waste events in real time, and generates plain-language sustainability tips — built for the 1M1B x Microsoft.",
-  stack: ["Python", "Streamlit", "RandomForest", "Claude API"],
-  linkLabel: "View Code",
-  linkUrl: "https://github.com/amaurya2012/EcoWatt",
-  linkType: "code",
-  featured: true,
+    title: "Rental & Purchase E-Commerce",
+    tag: "Full-Stack",
+    description:
+      "A dual-model e-commerce platform supporting both product purchase and time-based rentals, with role-based dashboards for Admin, Seller, and Buyer, deposit handling, and AI-ready interaction logging for future recommendations.",
+    stack: ["Flask", "SQLAlchemy", "Bootstrap"],
+    linkLabel: "View Code",
+    linkUrl: "https://github.com/amaurya2012/Rental-Purchase-AI-Ecommerce",
+    linkType: "code",
+    featured: true,
+  },
+  {
+    title: "CodeMaster",
+    tag: "Full-Stack",
+    description:
+      "A coding practice platform with difficulty-tiered problems, code submission, an admin panel for problem management, and a competitive leaderboard.",
+    stack: ["Flask", "Python", "MySQL"],
+    linkLabel: "View Code",
+    linkUrl: "https://github.com/amaurya2012/Codemaster",
+    linkType: "code",
+    featured: true,
   },
   {
     title: "NBA Accreditation AI Agent",
