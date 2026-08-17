@@ -127,6 +127,36 @@ export const projects: Project[] = [
     linkType: "live",
   },
   {
+  title: "Tic-Tac-Toe",
+  tag: "Web App",
+  description:
+    "A classic two-player Tic-Tac-Toe game with a clean, responsive interface and win/draw detection.",
+  stack: ["HTML5", "CSS3", "JavaScript"],
+  linkLabel: "Live Preview",
+  linkUrl: "https://tic-tac-toe-omega-five-39.vercel.app",
+  linkType: "live",
+  },
+  {
+  title: "Rock Paper Scissors",
+  tag: "Web App",
+  description:
+    "An interactive Rock Paper Scissors game with score tracking and instant round-by-round results against the computer.",
+  stack: ["HTML5", "CSS3", "JavaScript"],
+  linkLabel: "Live Preview",
+  linkUrl: "https://rock-paper-scissors-five-sage.vercel.app",
+  linkType: "live",
+  },
+  {
+  title: "Currency Converter",
+  tag: "Web App",
+  description:
+    "A real-time currency converter that fetches live exchange rates and converts between currencies instantly.",
+  stack: ["HTML5", "CSS3", "JavaScript"],
+  linkLabel: "Live Preview",
+  linkUrl: "https://currency-converter-zeta-beige-79.vercel.app",
+  linkType: "live",
+  },
+  {
     title: "EcoWatt",
     tag: "AI for Sustainability",
     description:
