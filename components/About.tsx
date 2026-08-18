@@ -1,8 +1,8 @@
 import { about } from "@/lib/data";
 
 const stats = [
-  { value: "4+", label: "Projects Shipped" },
-  { value: "17", label: "Certifications" },
+  { value: "15+", label: "Projects Shipped" },
+  { value: "21", label: "Certifications" },
   { value: "2028", label: "Expected Graduation" },
 ];
 
