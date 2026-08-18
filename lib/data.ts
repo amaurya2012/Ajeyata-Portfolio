@@ -29,7 +29,7 @@ export type SkillGroup = {
 export const skillGroups: SkillGroup[] = [
   {
     label: "Languages & Data",
-    items: ["Python", "Java", "Typescript", "SQL", "HTML/CSS/JS", "C",],
+    items: ["Python", "Java", "JavaScript", "TypeScript", "SQL", "HTML/CSS", "C",],
   },
   {
     label: "Frameworks",
@@ -37,7 +37,7 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     label: "AI & Tools",
-    items: ["IBM watsonx", "Git/GitHub"],
+    items: ["IBM watsonx", "VS Code", "Vercel", "Git/GitHub"],
   },
 ];
 
