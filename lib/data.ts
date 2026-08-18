@@ -107,6 +107,26 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+  title: "Currency Converter",
+  tag: "Web App",
+  description:
+    "A real-time currency converter that fetches live exchange rates and converts between currencies instantly.",
+  stack: ["HTML5", "CSS3", "JavaScript"],
+  linkLabel: "Live Preview",
+  linkUrl: "https://currency-converter-zeta-beige-79.vercel.app",
+  linkType: "live",
+  },
+  {
+  title: "Weather App",
+  tag: "Web App",
+  description:
+    "A responsive weather application that fetches real-time weather data and forecasts for any city, with a clean, easy-to-read interface.",
+  stack: ["HTML5", "CSS3", "JavaScript"],
+  linkLabel: "Live Preview",
+  linkUrl: "https://weather-app-eight-rho-24.vercel.app",
+  linkType: "live",
+  },
+  {
     title: "To Do List",
     tag: "Web App",
     description:
@@ -144,16 +164,6 @@ export const projects: Project[] = [
   stack: ["HTML5", "CSS3", "JavaScript"],
   linkLabel: "Live Preview",
   linkUrl: "https://rock-paper-scissors-five-sage.vercel.app",
-  linkType: "live",
-  },
-  {
-  title: "Currency Converter",
-  tag: "Web App",
-  description:
-    "A real-time currency converter that fetches live exchange rates and converts between currencies instantly.",
-  stack: ["HTML5", "CSS3", "JavaScript"],
-  linkLabel: "Live Preview",
-  linkUrl: "https://currency-converter-zeta-beige-79.vercel.app",
   linkType: "live",
   },
   {
