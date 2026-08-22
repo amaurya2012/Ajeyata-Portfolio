@@ -250,11 +250,19 @@ export const experience: Experience[] = [
   },
   {
     role: "Bootcamp Learner",
-    provider: "1M1B (AICTE Approved)",
+    provider: "1M1B x Microsoft x MeitY Startup Hub (AICTE Approved)",
     duration: "09 June 2026 – 14 July 2026",
     description:
       "The intensive AI-enabled Green Skills & Climate Action Bootcamp helped me in Gaining foundational insights into leveraging AI and Data Analytics to tackle modern sustainability and climate challenges equipped with future-ready skills focused on the intersection of technology, green innovation, and responsible AI application.",
     image: "/certificates/1M1B.jpeg",
+  },
+  {
+  role: "Green Skills & Applied AI Intern",
+  provider: "1M1B x Microsoft x MeitY Startup Hub (AICTE Approved)",
+  duration: "09 June 2026 – 14 July 2026",
+  description:
+    "70+ hours of experiential learning in Green Skills, Artificial Intelligence, and Data Analysis, culminating in a real-world AI-enabled sustainability project — EcoWatt.",
+  image: "/certificates/1M1B_Completion.jpeg",
   },
 ];
 
