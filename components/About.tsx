@@ -2,7 +2,7 @@ import { about } from "@/lib/data";
 
 const stats = [
   { value: "15+", label: "Projects Shipped" },
-  { value: "21", label: "Certifications" },
+  { value: "25", label: "Certifications" },
   { value: "2028", label: "Expected Graduation" },
 ];
 
