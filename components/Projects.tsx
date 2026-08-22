@@ -51,7 +51,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
 
 export default function Projects() {
   return (
-    <section id="work" className="relative px-6 py-28 md:px-10">
+    <section id="projects" className="relative px-6 py-28 md:px-10">
       <div className="mx-auto max-w-6xl">
           <p className="font-mono text-xs uppercase tracking-widest text-teal">
             MANIFESTED WORK
