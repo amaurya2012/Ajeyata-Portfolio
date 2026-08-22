@@ -8,7 +8,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
       style={{ animationDelay: `${index * 0.08}s` }}
     >
       {project.image && (
-        <div className="relative aspect-[16/9] w-full max-h-56 overflow-hidden border-b border-line">
+        <div className="relative aspect-[16/9] w-full max-h-48 overflow-hidden border-b border-line">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={project.image}
