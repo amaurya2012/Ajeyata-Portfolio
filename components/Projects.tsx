@@ -78,7 +78,7 @@ export default function Projects() {
         <h2 className="mt-3 font-display text-2xl font-medium text-paper">
           Crafted &amp; Curated with Passion.
         </h2>
-        <div className="mt-14 grid gap-6 sm:grid-cols-2">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((p, i) => (
             <ProjectCard project={p} index={i} key={p.title} />
           ))}
