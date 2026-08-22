@@ -242,7 +242,7 @@ export const experience: Experience[] = [
   },
   {
     role: "Emerging Technologies Intern",
-    provider: "Edunet Foundation x AICTE x IBM SkillsBuild",
+    provider: "Edunet Foundation x IBM SkillsBuild x AICTE",
     duration: "12 June 2026 – 10 July 2026",
     description:
       "A 4-week internship covering Agentic AI, Cyber Security, and Quantum Computing, culminating in an industry-relevant project built using IBM Cloud and IBM SkillsBuild.",
@@ -250,7 +250,7 @@ export const experience: Experience[] = [
   },
   {
     role: "Bootcamp Learner",
-    provider: "1M1B x Microsoft x MeitY Startup Hub (AICTE Approved)",
+    provider: "1M1B x Microsoft x MeitY Startup Hub x AICTE",
     duration: "09 June 2026 – 14 July 2026",
     description:
       "The intensive AI-enabled Green Skills & Climate Action Bootcamp helped me in Gaining foundational insights into leveraging AI and Data Analytics to tackle modern sustainability and climate challenges equipped with future-ready skills focused on the intersection of technology, green innovation, and responsible AI application.",
@@ -258,7 +258,7 @@ export const experience: Experience[] = [
   },
   {
   role: "Green Skills & Applied AI Intern",
-  provider: "1M1B x Microsoft x MeitY Startup Hub (AICTE Approved)",
+  provider: "1M1B x Microsoft x MeitY Startup Hub x AICTE",
   duration: "09 June 2026 – 14 July 2026",
   description:
     "70+ hours of experiential learning in Green Skills, Artificial Intelligence, and Data Analysis, culminating in a real-world AI-enabled sustainability project — EcoWatt.",
