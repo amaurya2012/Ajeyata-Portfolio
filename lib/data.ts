@@ -57,7 +57,7 @@ export type Project = {
   linkLabel: string;
   linkUrl: string;
   linkType: "live" | "code";
-  featured?: boolean;
+  image?: string | null;
 };
 
 export const projects: Project[] = [
@@ -70,7 +70,7 @@ export const projects: Project[] = [
     linkLabel: "View Code",
     linkUrl: "https://github.com/amaurya2012/Nutrition-Chatbot",
     linkType: "code",
-    featured: true,
+    image : null,
   },
   {
     title: "AURELLE — E-Commerce Funnel Analysis",
@@ -81,6 +81,7 @@ export const projects: Project[] = [
     linkLabel: "Live Preview",
     linkUrl: "https://ecommerce-funnel-analysis-pi.vercel.app",
     linkType: "live",
+    image : "/projects/AURELLE%20Ecommerce.jpeg",
   },
   {
     title: "FinSight",
@@ -91,6 +92,7 @@ export const projects: Project[] = [
     linkLabel: "Live Preview",
     linkUrl: "https://finsight-frontend-lac.vercel.app/",
     linkType: "live",
+    image : "/projects/finsight.jpeg",
   },
   {
     title: "A's Library",
@@ -101,7 +103,7 @@ export const projects: Project[] = [
     linkLabel: "Live Preview",
     linkUrl: "https://a-s-library.vercel.app",
     linkType: "live",
-    featured: true,
+    image : "/projects/as-library.jpeg",
   },
   {
     title: "Inkhaven",
@@ -112,27 +114,29 @@ export const projects: Project[] = [
     linkLabel: "Live Preview",
     linkUrl: "https://inkhaven-orpin.vercel.app",
     linkType: "live",
-    featured: true,
+    image : "/projects/inkhaven.jpeg",
   },
   {
-  title: "Currency Converter",
-  tag: "Web App",
-  description:
-    "A real-time currency converter that fetches live exchange rates and converts between currencies instantly.",
-  stack: ["HTML5", "CSS3", "JavaScript"],
-  linkLabel: "Live Preview",
-  linkUrl: "https://currency-converter-zeta-beige-79.vercel.app",
-  linkType: "live",
+    title: "Currency Converter",
+    tag: "Web App",
+    description:
+      "A real-time currency converter that fetches live exchange rates and converts between currencies instantly.",
+    stack: ["HTML5", "CSS3", "JavaScript"],
+    linkLabel: "Live Preview",
+    linkUrl: "https://currency-converter-zeta-beige-79.vercel.app",
+    linkType: "live",
+    image : "/projects/currency-converter.jpeg",
   },
   {
-  title: "Weather App",
-  tag: "Web App",
-  description:
-    "A responsive weather application that fetches real-time weather data and forecasts for any city, with a clean, easy-to-read interface.",
-  stack: ["HTML5", "CSS3", "JavaScript"],
-  linkLabel: "Live Preview",
-  linkUrl: "https://weather-app-eight-rho-24.vercel.app",
-  linkType: "live",
+    title: "Weather App",
+    tag: "Web App",
+    description:
+      "A responsive weather application that fetches real-time weather data and forecasts for any city, with a clean, easy-to-read interface.",
+    stack: ["HTML5", "CSS3", "JavaScript"],
+    linkLabel: "Live Preview",
+    linkUrl: "https://weather-app-eight-rho-24.vercel.app",
+    linkType: "live",
+    image : "/projects/weather.jpeg",
   },
   {
     title: "To Do List",
@@ -143,6 +147,7 @@ export const projects: Project[] = [
     linkLabel: "Live Preview",
     linkUrl: "https://to-do-list-two-taupe-78.vercel.app/",
     linkType: "live",
+    image : "/projects/to-do-list.jpeg",
   },
   {
     title: "Calculator",
@@ -153,26 +158,29 @@ export const projects: Project[] = [
     linkLabel: "Live Preview",
     linkUrl: "https://calculator-one-flax-99.vercel.app",
     linkType: "live",
+    image : "/projects/calculator.jpeg",
   },
   {
-  title: "Tic-Tac-Toe",
-  tag: "Web App",
-  description:
-    "A classic two-player Tic-Tac-Toe game with a clean, responsive interface and win/draw detection.",
-  stack: ["HTML5", "CSS3", "JavaScript"],
-  linkLabel: "Live Preview",
-  linkUrl: "https://tic-tac-toe-omega-five-39.vercel.app",
-  linkType: "live",
+    title: "Tic-Tac-Toe",
+    tag: "Web App",
+    description:
+      "A classic two-player Tic-Tac-Toe game with a clean, responsive interface and win/draw detection.",
+    stack: ["HTML5", "CSS3", "JavaScript"],
+    linkLabel: "Live Preview",
+    linkUrl: "https://tic-tac-toe-omega-five-39.vercel.app",
+    linkType: "live",
+    image : "/projects/tic-tac-toe.jpeg",
   },
   {
-  title: "Rock Paper Scissors",
-  tag: "Web App",
-  description:
-    "An interactive Rock Paper Scissors game with score tracking and instant round-by-round results against the computer.",
-  stack: ["HTML5", "CSS3", "JavaScript"],
-  linkLabel: "Live Preview",
-  linkUrl: "https://rock-paper-scissors-five-sage.vercel.app",
-  linkType: "live",
+    title: "Rock Paper Scissors",
+    tag: "Web App",
+    description:
+      "An interactive Rock Paper Scissors game with score tracking and instant round-by-round results against the computer.",
+    stack: ["HTML5", "CSS3", "JavaScript"],
+    linkLabel: "Live Preview",
+    linkUrl: "https://rock-paper-scissors-five-sage.vercel.app",
+    linkType: "live",
+    image : "/projects/rock-paper-scissors.jpeg",
   },
   {
     title: "EcoWatt",
@@ -183,7 +191,7 @@ export const projects: Project[] = [
     linkLabel: "View Code",
     linkUrl: "https://github.com/amaurya2012/EcoWatt",
     linkType: "code",
-    featured: true,
+    image : null,
   },
   {
     title: "Job Portal",
@@ -194,7 +202,7 @@ export const projects: Project[] = [
     linkLabel: "View Code",
     linkUrl: "https://github.com/amaurya2012/Job-Portal",
     linkType: "code",
-    featured: true,
+    image : null,
   },
   {
     title: "Rental & Purchase E-Commerce",
@@ -205,7 +213,7 @@ export const projects: Project[] = [
     linkLabel: "View Code",
     linkUrl: "https://github.com/amaurya2012/Rental-Purchase-AI-Ecommerce",
     linkType: "code",
-    featured: true,
+    image : null,
   },
   {
     title: "CodeMaster",
@@ -216,7 +224,7 @@ export const projects: Project[] = [
     linkLabel: "View Code",
     linkUrl: "https://github.com/amaurya2012/Codemaster",
     linkType: "code",
-    featured: true,
+    image : null,
   },
   {
     title: "NBA Accreditation AI Agent",
@@ -227,7 +235,7 @@ export const projects: Project[] = [
     linkLabel: "null",
     linkUrl: "null",
     linkType: "code",
-    featured: true,
+    image : null,
   },
 ];
 
