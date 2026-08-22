@@ -81,7 +81,7 @@ export const projects: Project[] = [
     linkLabel: "Live Preview",
     linkUrl: "https://ecommerce-funnel-analysis-pi.vercel.app",
     linkType: "live",
-    image : "/projects/AURELLE%20Ecommerce.jpeg",
+    image : "/projects/aurelle-ecommerce.jpeg",
   },
   {
     title: "FinSight",
