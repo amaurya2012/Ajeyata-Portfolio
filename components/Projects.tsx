@@ -69,6 +69,9 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
 }
 
 export default function Projects() {
+  const liveProjects = projects.filter((p) => p.linkType === "live");
+  const codeProjects = projects.filter((p) => p.linkType === "code");
+
   return (
     <section id="projects" className="relative px-6 py-28 md:px-10">
       <div className="mx-auto max-w-6xl">
@@ -78,11 +81,33 @@ export default function Projects() {
         <h2 className="mt-3 font-display text-2xl font-medium text-paper">
           Crafted &amp; Curated with Passion.
         </h2>
+
+        {liveProjects.length > 0 && (
+          <div className="mt-14">
+            <h3 className="font-mono text-xs uppercase tracking-widest text-lime">
+              Live Projects
+            </h3>
+            <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {liveProjects.map((p, i) => (
+                <ProjectCard project={p} index={i} key={p.title} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {codeProjects.length > 0 && (
+          <div className="mt-16">
+            <h3 className="font-mono text-xs uppercase tracking-widest text-muted">
+              Code Repositories
+            </h3>
+
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((p, i) => (
             <ProjectCard project={p} index={i} key={p.title} />
           ))}
         </div>
+      </div>
+      )}
       </div>
     </section>
   );
