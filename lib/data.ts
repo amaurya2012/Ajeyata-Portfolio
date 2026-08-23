@@ -76,7 +76,7 @@ export const projects: Project[] = [
     title: "AURELLE — E-Commerce Funnel Analysis",
     tag: "Data Analytics",
     description:
-      "An end-to-end telemetry pipeline for a simulated storefront: a React frontend logs every user action to a Node/Express backend, a traffic simulator generates thousands of sessions, and a Python analytics module produces funnel charts, device-level conversion rates, and a statistically validated A/B test report.",
+      "An end-to-end telemetry pipeline for a simulated storefront: a React frontend logs every user action to a Node/Express backend, a traffic simulator generates thousands of sessions, and a Python analytics module produces funnel charts.",
     stack: ["React", "Node/Express", "Python", "A/B Testing"],
     linkLabel: "Live Preview",
     linkUrl: "https://ecommerce-funnel-analysis-pi.vercel.app",
@@ -87,7 +87,7 @@ export const projects: Project[] = [
     title: "FinSight",
     tag: "Fintech & Dashboard Analytics",
     description:
-      "A sleek, receipt-aesthetic financial tracking and ledger dashboard system featuring real-time transaction management, persistent local storage, dynamic multi-category expense breakdowns, and dark/light theme switching.",
+      "A sleek, receipt-aesthetic financial tracking and ledger dashboard system featuring real-time transaction management, persistent local storage, dynamic multi-category expense breakdowns.",
     stack: ["React", "Vite", "Tailwind CSS", "JavaScript", "LocalStorage"],
     linkLabel: "Live Preview",
     linkUrl: "https://finsight-frontend-lac.vercel.app/",
@@ -131,7 +131,7 @@ export const projects: Project[] = [
     title: "Weather App",
     tag: "Web App",
     description:
-      "A responsive weather application that fetches real-time weather data and forecasts for any city, with a clean, easy-to-read interface.",
+      "A responsive weather application that fetches real-time weather data and forecasts for any city, with a clean interface.",
     stack: ["HTML5", "CSS3", "JavaScript"],
     linkLabel: "Live Preview",
     linkUrl: "https://weather-app-eight-rho-24.vercel.app",
@@ -142,7 +142,7 @@ export const projects: Project[] = [
     title: "To Do List",
     tag: "Web App",
     description:
-      "A To-Do List web application built with HTML, CSS, and JavaScript. This project features a clean, centered interface with a peach-gradient background, dynamic task management (adding, deleting, and reordering via drag-and-drop), and an interactive 'Yes/No' dropdown selector that dynamically marks tasks as completed with a line-through style.",
+      "A To-Do List web application built with HTML, CSS, and JavaScript, features a dynamic task management (adding, deleting, and reordering via drag-and-drop).",
     stack: ["HTML5", "CSS3", "JavaScript"],
     linkLabel: "Live Preview",
     linkUrl: "https://to-do-list-two-taupe-78.vercel.app/",
