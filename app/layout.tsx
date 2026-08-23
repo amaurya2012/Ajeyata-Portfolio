@@ -24,7 +24,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ajeyata Maurya — CSE-DS Student & AI Developer",
+  title: "Ajeyata Maurya — CSE-DS & AI Developer",
   description:
     "Portfolio of Ajeyata Maurya, a Computer Science (Data Science) student building AI-driven and full-stack applications — from AI agents and chatbots to BI tools and web platforms.",
 };
