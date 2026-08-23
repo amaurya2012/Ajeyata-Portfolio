@@ -100,14 +100,13 @@ export default function Projects() {
             <h3 className="font-mono text-xs uppercase tracking-widest text-lime">
               Code Repositories
             </h3>
-
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.map((p, i) => (
-            <ProjectCard project={p} index={i} key={p.title} />
-          ))}
-        </div>
-      </div>
-      )}
+            <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {codeProjects.map((p, i) => (
+                <ProjectCard project={p} index={i} key={p.title} />
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );
