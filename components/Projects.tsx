@@ -97,7 +97,7 @@ export default function Projects() {
 
         {codeProjects.length > 0 && (
           <div className="mt-16">
-            <h3 className="font-mono text-xs uppercase tracking-widest text-muted">
+            <h3 className="font-mono text-xs uppercase tracking-widest text-lime">
               Code Repositories
             </h3>
 
