@@ -308,6 +308,7 @@ export const certifications: Certification[] = [
   { title: "Software Engineering Job Simulation", issuer: "JP Morgan Chase & Co.", image: "/certificates/JP.png.jpeg", url: "/certificates/JP.png.jpeg" },
   { title: "Advanced Software Engineering Job Simulation", issuer: "Walmart", image: "/certificates/Walmart.png.jpeg", url: "/certificates/Walmart.png.jpeg" },
   { title: "SQL and Relational Databases 101", issuer: "Cognitiveclass.ai", image: "/certificates/SQL.png.jpeg", url: "/certificates/SQL.png.jpeg" },
+  { title: "Data Science & Analytics", issuer: "HP Foundation", image: "/certificates/HP.png.jpeg", url: "/certificates/HP.png.jpeg" },
   { title: "Claude 101", issuer: "Anthropic", image: "/certificates/claude101.png.jpeg", url: "/certificates/claude101.png.jpeg" },
   { title: "AI Fluency: Framework & Foundations", issuer: "Anthropic", image: "/certificates/AI%20Fluency.png.jpeg", url: "/certificates/AI%20Fluency.png.jpeg" },
   { title: "Claude Code in Action", issuer: "Anthropic", image: "/certificates/claude%20code.png.jpeg", url: "/certificates/claude%20code.png.jpeg" },
