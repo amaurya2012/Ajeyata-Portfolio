@@ -235,7 +235,7 @@ export const projects: Project[] = [
     linkLabel: "null",
     linkUrl: "null",
     linkType: "code",
-    image : null,
+    image : "/projects/accredipath.jpeg",
   },
 ];
 
