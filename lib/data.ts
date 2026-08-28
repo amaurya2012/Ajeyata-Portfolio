@@ -70,7 +70,7 @@ export const projects: Project[] = [
     linkLabel: "View Code",
     linkUrl: "https://github.com/amaurya2012/Nutrition-Chatbot",
     linkType: "code",
-    image : null,
+    image : "/projects/nutrition chatbot.jpeg",
   },
   {
     title: "AURELLE — E-Commerce Funnel Analysis",
@@ -191,7 +191,7 @@ export const projects: Project[] = [
     linkLabel: "View Code",
     linkUrl: "https://github.com/amaurya2012/EcoWatt",
     linkType: "code",
-    image : null,
+    image : "/projects/ecowatt.jpeg",
   },
   {
     title: "Job Portal",
@@ -202,7 +202,7 @@ export const projects: Project[] = [
     linkLabel: "View Code",
     linkUrl: "https://github.com/amaurya2012/Job-Portal",
     linkType: "code",
-    image : null,
+    image : "/projects/job portal.jpeg",
   },
   {
     title: "Rental & Purchase E-Commerce",
@@ -213,7 +213,7 @@ export const projects: Project[] = [
     linkLabel: "View Code",
     linkUrl: "https://github.com/amaurya2012/Rental-Purchase-AI-Ecommerce",
     linkType: "code",
-    image : null,
+    image : "/projects/Ecommerce rental & purchase.jpeg",
   },
   {
     title: "CodeMaster",
@@ -224,7 +224,7 @@ export const projects: Project[] = [
     linkLabel: "View Code",
     linkUrl: "https://github.com/amaurya2012/Codemaster",
     linkType: "code",
-    image : null,
+    image : "/projects/codemaster.jpeg",
   },
   {
     title: "NBA Accreditation AI Agent",
