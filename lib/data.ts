@@ -233,7 +233,7 @@ export const projects: Project[] = [
       "A Django-based text utility web app that lets users clean and transform text — remove punctuation, convert to uppercase, strip extra spaces and newlines, and count characters — all through a simple checkbox interface.",
     stack: ["Python", "Django", "HTML", "SQLite"],
     linkLabel: "View Code",
-    linkUrl: "https://github.com/amaurya2012/textutils",
+    linkUrl: "https://github.com/amaurya2012/Text-Utils",
     linkType: "code",
     image: "/projects/textutils.jpeg",
   },
