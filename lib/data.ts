@@ -226,6 +226,17 @@ export const projects: Project[] = [
     linkType: "code",
     image : "/projects/codemaster.jpeg",
   },
+    {
+    title: "TextUtils",
+    tag: "Django",
+    description: 
+      "A Django-based text utility web app that lets users clean and transform text — remove punctuation, convert to uppercase, strip extra spaces and newlines, and count characters — all through a simple checkbox interface.",
+    stack: ["Python", "Django", "HTML", "SQLite"],
+    linkLabel: "View Code",
+    linkUrl: "https://github.com/amaurya2012/textutils",
+    linkType: "code",
+    image: "/projects/textutils.jpeg",
+  },
   {
     title: "NBA Accreditation AI Agent",
     tag: "AI Agent",
