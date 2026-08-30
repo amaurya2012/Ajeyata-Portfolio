@@ -86,7 +86,7 @@ export default function Hero() {
 
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
-              href="#work"
+              href="#projects"
               className="rounded-full bg-lime px-6 py-3 font-mono text-xs font-medium uppercase tracking-widest text-ink transition-transform hover:scale-105"
             >
               View My Work
