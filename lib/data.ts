@@ -305,6 +305,8 @@ export const certifications: Certification[] = [
   { title: "AI Quiz", issuer: "Campus Crew", image: "/certificates/Campus_Crew_Certificate.jpeg", url: "/certificates/Campus_Crew_Certificate.jpeg" },
   { title: "Techquest - Future-Proof Skills and Tech Careers", issuer: "Naukri Campus", image: "/certificates/Techquest-Certificate.jpeg", url: "/certificates/Techquest-Certificate.jpeg" },
   { title: "GenQuezt: Independence Day Quiz", issuer: "Naukri Campus", image: "/certificates/Independence-Day-Certificate.jpeg", url: "/certificates/Independence-Day-Certificate.jpeg" },
+  { title: "BrandQuezt: The Viral Formula", issuer: "Naukri Campus", image: "/certificates/viral formula.jpeg", url: "/certificates/viral formula.jpeg" },
+  { title: "Internshala Student Partner", issuer: "Internshala", image: "/certificates/Webinar Certificate.jpeg", url: "/certificates/Webinar Certificate.jpeg" },
   { title: "GFG Hackfest", issuer: "Geeks for Geeks", image: "/certificates/gfg.png.jpeg", url: "/certificates/gfg.png.jpeg" },
   { title: "Getting Started with Artificial Intelligence", issuer: "IBM", image: "/certificates/AI.png.jpeg", url: "/certificates/AI.png.jpeg" },
   { title: "Getting Started with Cybersecurity", issuer: "IBM", image: "/certificates/cybersecurity.png.jpeg", url: "/certificates/cybersecurity.png.jpeg" },
