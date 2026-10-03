@@ -71,6 +71,17 @@ export const projects: Project[] = [
     linkType: "live",
     image: "/projects/invoice_intelligence.png" 
   },
+    {
+    title: "EcoWatt",
+    tag: "AI for Sustainability",
+    description:
+      "An AI-powered household energy advisor that forecasts consumption, detects waste events in real time, and generates plain-language sustainability tips.",
+    stack: ["Python", "Streamlit", "RandomForest", "Claude API"],
+    linkLabel: "Live Preview",
+    linkUrl: "https://ecowatt-ai-sustainability.streamlit.app/",
+    linkType: "live",
+    image : "/projects/ecowatt.jpeg",
+  },
   {
     title: "AURELLE — E-Commerce Funnel Analysis",
     tag: "Data Analytics",
@@ -191,17 +202,6 @@ export const projects: Project[] = [
     linkUrl: "https://github.com/amaurya2012/Nutrition-Chatbot",
     linkType: "code",
     image : "/projects/nutrition chatbot.jpeg",
-  },
-  {
-    title: "EcoWatt",
-    tag: "AI for Sustainability",
-    description:
-      "An AI-powered household energy advisor that forecasts consumption, detects waste events in real time, and generates plain-language sustainability tips — built for the 1M1B x Microsoft.",
-    stack: ["Python", "Streamlit", "RandomForest", "Claude API"],
-    linkLabel: "View Code",
-    linkUrl: "https://github.com/amaurya2012/EcoWatt",
-    linkType: "code",
-    image : "/projects/ecowatt.jpeg",
   },
   {
     title: "Job Portal",
