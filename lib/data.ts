@@ -62,17 +62,6 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Nutrition Chatbot",
-    tag: "Chatbot",
-    description:
-      "An intelligent chatbot that delivers personalized nutrition insights, built to make everyday dietary guidance more conversational and accessible.",
-    stack: ["Python", "IBM watsonx", "NLP"],
-    linkLabel: "View Code",
-    linkUrl: "https://github.com/amaurya2012/Nutrition-Chatbot",
-    linkType: "code",
-    image : "/projects/nutrition chatbot.jpeg",
-  },
-  {
     title: "AURELLE — E-Commerce Funnel Analysis",
     tag: "Data Analytics",
     description:
@@ -192,6 +181,17 @@ export const projects: Project[] = [
     linkUrl: "https://github.com/amaurya2012/Invoice-Intelligence-ML-Project",
     linkType: "code",
     image: null,
+  },
+  {
+    title: "Nutrition Chatbot",
+    tag: "Chatbot",
+    description:
+      "An intelligent chatbot that delivers personalized nutrition insights, built to make everyday dietary guidance more conversational and accessible.",
+    stack: ["Python", "IBM watsonx", "NLP"],
+    linkLabel: "View Code",
+    linkUrl: "https://github.com/amaurya2012/Nutrition-Chatbot",
+    linkType: "code",
+    image : "/projects/nutrition chatbot.jpeg",
   },
   {
     title: "EcoWatt",
