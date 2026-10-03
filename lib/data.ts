@@ -64,11 +64,11 @@ export const projects: Project[] = [
   {
     title: "Invoice Intelligence & Freight Cost ML Pipeline",
     tag: "Machine Learning / Data Analytics",
-    description: "An end-to-end data analytics and ML system built to detect invoice discrepancies and predict freight shipping costs. Features automated feature engineering from SQLite inventory tables, risk-flagging classification via tuned Random Forest models, and an interactive Streamlit inference dashboard.",
+    description: "An end-to-end data analytics and ML system built to detect invoice discrepancies and predict freight shipping costs.",
     stack: ["Python", "Scikit-Learn", "Streamlit", "SQLite", "Pandas", "NumPy", "Joblib"],
-    linkLabel: "View Code",
+    linkLabel: "Live Preview",
     linkUrl: "https://invoice-intelligence-ml-system.streamlit.app/",
-    linkType: "code",
+    linkType: "live",
     image: "/projects/invoice_intelligence.png" 
   },
   {
