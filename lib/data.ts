@@ -183,6 +183,17 @@ export const projects: Project[] = [
     image : "/projects/rock-paper-scissors.jpeg",
   },
   {
+    title: "Vendor Invoice Intelligence & Freight Cost ML Pipeline",
+    tag: "Machine Learning / Data Analytics",
+    description:
+      "An end-to-end data analytics and ML system built to detect invoice discrepancies and predict freight shipping costs. Features automated feature engineering from SQLite inventory tables, risk-flagging classification via tuned Random Forest models, and an interactive Streamlit inference dashboard.",
+    stack: ["Python","Scikit-Learn", "Streamlit", "SQLite", "Pandas", "NumPy", "Joblib"],
+    linkLabel: "View Code",
+    linkUrl: "https://github.com/amaurya2012/Invoice-Intelligence-ML-Project",
+    linkType: "code",
+    image: null,
+  },
+  {
     title: "EcoWatt",
     tag: "AI for Sustainability",
     description:
